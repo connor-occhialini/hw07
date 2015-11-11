@@ -1,1 +1,2 @@
 # HW07 - Numerical Integration vs. Recursive Methods
+Uses a recurrence relation to compute the integral $I_n = \int_0^1 x^n e^{-x} dx$ for different values of n. The accuracy of these computations are checked against a generic numerical integration algorithm from the GNU scientific library.  The time for these computations are also compared.  Function declarations are found in their respective files and the main function, along with all computations, is found in "hw07.c".
