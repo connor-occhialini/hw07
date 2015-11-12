@@ -25,7 +25,7 @@ int main(void)
 	for(i = 0; i <=NMAX; i++)
 	{
 		printf("%d    %.8f    %.8f    %f\n", i, vals1[i], vals2[i], 
-		(vals1[i]-vals2[i])*1.e9);
+		(fabs(vals1[i]-vals2[i]))*1.e9);
 	}
 
 

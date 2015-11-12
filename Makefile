@@ -16,6 +16,7 @@ INDENT = /usr/bin/indent
 CC        = clang
 LDFLAGS   = -O
 CFLAGS    = -Weverything -Wextra -pedantic $(LDFLAGS)
+LDLIBS    = $(shell gsl-config --libs)
 
 .SUFFIXES:
 .SUFFIXES:  .c .o .h
